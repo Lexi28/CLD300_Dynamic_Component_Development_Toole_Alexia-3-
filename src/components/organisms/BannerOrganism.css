@@ -1,0 +1,11 @@
+.banner-organism {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    padding: 24px;
+    border-radius: 12px;
+    }
+  
+ .button{
+    left: -32px;
+ }

@@ -1,0 +1,22 @@
+.signup-organism {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  border-radius: 8px;
+  background-color: transparent;
+  width: 90.5%;
+  margin-left: 3.5%;
+  border: 1px solid rgb(66, 65, 65);
+
+  margin-top: 16px;
+}
+
+.text-block {
+  flex: 1;
+  margin-right: 16px;
+}
+
+.subheadingText {
+  margin-right: 10px;
+}

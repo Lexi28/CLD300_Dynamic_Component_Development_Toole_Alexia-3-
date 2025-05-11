@@ -1,0 +1,11 @@
+/* src/components/atoms/FooterLink.css */
+.footer-link {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 8px;
+  }
+  
+  .footer-link:hover {
+    text-decoration: underline;
+  }
+  

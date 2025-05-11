@@ -1,0 +1,26 @@
+.star {
+  font-size: 80px;
+  color: #646060;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4);
+  margin-right: 32px;
+  border-radius: 24px;
+  height: 120px;
+  width: 120px;
+  transition: transform 0.3s ease-in-out;
+  background-color: #141616;
+  margin: 24px;
+}
+
+.star.filled {
+  color: rgba(239, 245, 243, 0.973);
+}
+
+.star:hover {
+  transform: translateY(-3px);
+  cursor: pointer;
+}
+
+.star:hover {
+  color: rgba(5, 248, 167, 0.973);
+  cursor: pointer;
+}

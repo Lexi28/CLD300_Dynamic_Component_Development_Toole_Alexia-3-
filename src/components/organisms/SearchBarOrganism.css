@@ -1,0 +1,53 @@
+.search-bar-organism {
+  padding: 10px;
+}
+
+.search-button[disabled] {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+.dropdown-menu {
+  position: absolute; /* Position the dropdown menu absolutely */
+  top: 28%; /* Position below the search bar */
+  left: 0;
+  width: 100%;
+  background-color: rgb(48, 45, 45);
+  border-bottom: 1px solid #ccc;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1000; /* High z-index to sit on top of other elements */
+  padding: 16px;
+  box-sizing: border-box;
+  color: dark grey;
+}
+
+.dropdown-menu p {
+  margin: 0;
+  font-size: 16px;
+  font-weight: normal;
+  margin-left: 14.4%;
+}
+
+.dropdown-menu h3 {
+  margin-top: 16px;
+  font-size: 18px;
+  font-style: italic;
+  color: rgb(128, 123, 123);
+  margin-left: 14.4%;
+}
+
+.dropdown-menu ul {
+  list-style: none;
+  padding: 0;
+}
+
+.dropdown-menu li:hover {
+  cursor: pointer;
+}
+
+.dropdown-menu ul li {
+  margin: 8px 0;
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: 14.4%;
+}

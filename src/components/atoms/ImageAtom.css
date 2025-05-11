@@ -1,0 +1,16 @@
+.image-atom {
+    width: 45%;
+    border-radius: 24px; 
+   
+    animation: float 3s ease-in-out infinite;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.6); 
+}
+
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-6px); /* Adjust the value to control the amount of movement */
+    }
+}

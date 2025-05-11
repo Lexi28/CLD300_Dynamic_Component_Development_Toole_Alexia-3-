@@ -1,0 +1,98 @@
+/* src/App.css */
+.app {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: rgb(29, 28, 28);
+  overflow: hidden;
+  height: 335vh;
+  width: 105%;
+  margin-top: 100px;
+}
+
+.landing-page-section {
+  display: grid;
+  gap: 20px;
+  padding: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+/* Styling for NavbarOrganism */
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: transparent;
+}
+
+.navbar-container .logo {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.banner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 85vh;
+  background: url('https://i.pinimg.com/564x/68/29/e6/6829e65a802cce1221ee9e51094c70dd.jpg')
+    repeat;
+  background-size: 80px 80px;
+  border: 1px solid rgb(66, 65, 65);
+  width: 96%;
+  margin-left: 2%;
+  margin-top: 4px;
+  margin-bottom: 32px;
+  border-radius: 20px;
+}
+
+.banner {
+  max-width: 1200px;
+  width: 100%;
+  padding: 20px;
+}
+
+.rating-container {
+  margin-top: 24px;
+  margin-bottom: 24px;
+  display: flex;
+  margin-left: 52px;
+}
+
+/* styles.css */
+.heading-section {
+  padding: 20px;
+}
+.card-container-section1 {
+  background-color: transparent;
+  width: 98%;
+  height: 100%;
+  justify-content: center;
+  display: flex;
+  padding-bottom: 18px;
+  border: 1px solid rgb(66, 65, 65);
+  border-radius: 24px;
+}
+
+.heading-container {
+  text-align: center;
+}
+
+.heading-text {
+  font-size: 24px;
+  font-weight: bold;
+  color: #0a0808;
+}
+
+@media (max-width: 768px) {
+  .card-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .card-container {
+    grid-template-columns: 1fr;
+  }
+}

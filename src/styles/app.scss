@@ -1,0 +1,28 @@
+// this is the global stylesheet. all components can see these styles.
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+body {
+  background-color: var(--background-secondary);
+  font-family: var(--font);
+  font-size: 16px;
+ 
+}
+
+a {
+  text-decoration: none;
+  color: var(--link-primary);
+
+  &:hover {
+    color: var(--link-secondary);
+  }
+}
+
+.active {
+  color: rgb(240, 234, 237);
+}

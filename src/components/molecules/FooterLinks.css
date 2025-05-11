@@ -1,0 +1,10 @@
+/* src/components/molecules/FooterLinks.css */
+.footer-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 8px 0;
+    color: #e4e1e1; 
+    font-weight: 600;
+  }
+  

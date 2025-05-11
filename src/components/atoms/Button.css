@@ -1,0 +1,23 @@
+/* src/components/atoms/Button.css */
+.button {
+  padding: 12px 24px;
+  font-size: 1rem;
+  background-color: rgba(0, 0, 0, 1);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+  margin-left: 20px;
+}
+
+.button:hover {
+  background-color: #45f5a3;
+  color: black;
+  transform: translateY(-2px);
+}
+
+.button:focus {
+  outline: none;
+}
